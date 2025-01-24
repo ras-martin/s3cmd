@@ -9,7 +9,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: "${REGISTRY}/${{ github.repository_owner }}/s3cmd"
+  IMAGE_NAME: "ghcr.io/${{ github.repository_owner }}/s3cmd"
   
 jobs:
   build-docker:
